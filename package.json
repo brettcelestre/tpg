@@ -1,0 +1,23 @@
+{
+  "name": "tpg",
+  "version": "1.0.0",
+  "description": "tpgsales.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettcelestre/tpg.git"
+  },
+  "author": "Brett Celestre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brettcelestre/tpg/issues"
+  },
+  "homepage": "https://github.com/brettcelestre/tpg#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
