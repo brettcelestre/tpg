@@ -248,6 +248,7 @@ body {
 
 /* --- HEADER --- */
 .navigation {
+  top: 0;
   height: 90px;
   background-color: white;
   z-index: 6;
@@ -306,6 +307,7 @@ body {
   }
   .nav-mobile {
     display: table;
+    top: 0;
     width: 100%;
     height: 90px;
     min-width: 360px;
@@ -347,17 +349,27 @@ body {
     }
   }
   .mobile-options {
+    transition: all 0.3s;
     display: inline-block;
     top: 90px;
-    right: -300px;
+    right: -225px;
     position: fixed;
     float: right;
     z-index: 8;
-    width: 300px;
+    width: 225px;
     height:100vh;
     background-color: #282828;
-    /*background-color: white;*/
-    transition: all 0.3s;
+    padding-top: 20px;
+  }
+  .mobile-option {
+    width: 100%;
+    height: 50px;
+    @include font-styles('Roboto', 400, 1.1rem, white, 1px, 2);
+    text-decoration: none;
+    padding: 8px 0 0 25px;
+    &:hover {
+      background-color:#383838;
+    }
   }
   .open {
     right: 0px;
