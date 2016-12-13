@@ -567,6 +567,52 @@ body {
   background-size: cover;
 }
 
+/* --- CONTACT US  --- */
+.contact-us {
+  margin: 0;
+}
+.contact-section {
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #383838;
+}
+.contact-info div {
+  @include font-styles('Roboto', 300, 1rem, #353535, 1px, 1.4rem);
+  .contact-header {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+}
+.contact-section h3 {
+  @include font-styles('Roboto', 300, 2rem, #27b8c5, 1px, 1.9rem);
+}
+.contact-form {
+  @include font-styles('Roboto', 300, 1.15rem, white, .75px, 1.9rem);
+  padding: 0 7%;
+  div {
+    margin-bottom: 10px;
+  }
+}
+.contact-options {
+  @include font-styles('Roboto', 300, 1rem, #353535, .75px, 1.9rem);  
+}
+.email-content {
+  height: auto;
+  min-height: 175px;
+  max-height: 300px;
+}
+.send-btn {
+  background-color: #27b8c5;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  /*background-color: grey;*/
+}
+
 /* --- FOOTER --- */
 footer {
   width: 100%;
@@ -620,50 +666,3 @@ footer {
     display: none;
   }
 }
-
-/* --- CONTACT US  --- */
-.contact-us {
-  margin: 0;
-}
-.contact-section {
-  width: 100%;
-  padding-top: 55px;
-  padding-bottom: 55px;
-  background-color: #383838;
-/*  .copy {
-    @include font-styles('Roboto', 300, .95rem, white, 1px, 1.4rem);
-    padding: 0;
-  }
-  .four {
-    height: 85px;
-    text-align: center;
-  }*/
-}
-.contact-section h3 {
-  @include font-styles('Roboto', 300, 2rem, #27b8c5, 1px, 1.9rem);
-}
-.contact-form {
-  @include font-styles('Roboto', 300, 1.15rem, white, .75px, 1.9rem);
-  padding: 0 7%;
-  div {
-    margin-bottom: 10px;
-  }
-}
-.contact-options {
-  @include font-styles('Roboto', 300, 1rem, #353535, .75px, 1.9rem);  
-}
-.email-content {
-  height: auto;
-  min-height: 175px;
-  max-height: 300px;
-}
-.send-btn {
-  background-color: #27b8c5;
-}
-
-#map {
-  width: 100%;
-  height: 400px;
-  /*background-color: grey;*/
-}
-

@@ -607,6 +607,68 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+/* --- CONTACT US  --- */
+.contact-us {
+  margin: 0; }
+
+.contact-section {
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #383838; }
+
+.contact-info div {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #353535;
+  letter-spacing: 1px;
+  line-height: 1.4rem; }
+  .contact-info div .contact-header {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 15px; }
+
+.contact-section h3 {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 2rem;
+  color: #27b8c5;
+  letter-spacing: 1px;
+  line-height: 1.9rem; }
+
+.contact-form {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: white;
+  letter-spacing: 0.75px;
+  line-height: 1.9rem;
+  padding: 0 7%; }
+  .contact-form div {
+    margin-bottom: 10px; }
+
+.contact-options {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #353535;
+  letter-spacing: 0.75px;
+  line-height: 1.9rem; }
+
+.email-content {
+  height: auto;
+  min-height: 175px;
+  max-height: 300px; }
+
+.send-btn {
+  background-color: #27b8c5; }
+
+#map {
+  width: 100%;
+  height: 400px;
+  /*background-color: grey;*/ }
+
 /* --- FOOTER --- */
 footer {
   width: 100%;
@@ -660,61 +722,3 @@ footer {
 @media only screen and (device-width: 870px), only screen and (max-width: 870px) {
   .footer-options {
     display: none; } }
-
-/* --- CONTACT US  --- */
-.contact-us {
-  margin: 0; }
-
-.contact-section {
-  width: 100%;
-  padding-top: 55px;
-  padding-bottom: 55px;
-  background-color: #383838;
-  /*  .copy {
-    @include font-styles('Roboto', 300, .95rem, white, 1px, 1.4rem);
-    padding: 0;
-  }
-  .four {
-    height: 85px;
-    text-align: center;
-  }*/ }
-
-.contact-section h3 {
-  font-family: "Roboto";
-  font-weight: 300;
-  font-size: 2rem;
-  color: #27b8c5;
-  letter-spacing: 1px;
-  line-height: 1.9rem; }
-
-.contact-form {
-  font-family: "Roboto";
-  font-weight: 300;
-  font-size: 1.15rem;
-  color: white;
-  letter-spacing: 0.75px;
-  line-height: 1.9rem;
-  padding: 0 7%; }
-  .contact-form div {
-    margin-bottom: 10px; }
-
-.contact-options {
-  font-family: "Roboto";
-  font-weight: 300;
-  font-size: 1rem;
-  color: #353535;
-  letter-spacing: 0.75px;
-  line-height: 1.9rem; }
-
-.email-content {
-  height: auto;
-  min-height: 175px;
-  max-height: 300px; }
-
-.send-btn {
-  background-color: #27b8c5; }
-
-#map {
-  width: 100%;
-  height: 400px;
-  /*background-color: grey;*/ }

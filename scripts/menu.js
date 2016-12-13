@@ -7,10 +7,20 @@ var mobileMenu = function(){
   if ( $('.navigation').hasClass('fixed') ) {
     $('.navigation').removeClass('fixed');
     $('.home').css('margin-top', '0px');
+    $('.about').css('margin-top', '0px');
+    $('.services').css('margin-top', '0px');
+    $('.marketplace').css('margin-top', '0px');
+    $('.news').css('margin-top', '0px');
+    $('.contact-us').css('margin-top', '0px');
     $('.menu-fade').css('display', 'none');
   } else {
     $('.navigation').addClass('fixed');
     $('.home').css('margin-top', '90px');
+    $('.about').css('margin-top', '90px');
+    $('.services').css('margin-top', '90px');
+    $('.marketplace').css('margin-top', '90px');
+    $('.news').css('margin-top', '90px');
+    $('.contact-us').css('margin-top', '90px');
     $('.menu-fade').css('display', 'block');
   }
 }

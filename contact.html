@@ -108,19 +108,20 @@
         <div id='map'>
         </div>
 
-        <div class='container'>
-          <div class='row center'>
+        <div class='container section-spacer'>
+          <div class='row center contact-info'>
             
             <div class='four columns'>
-              Address<br />
-              6673 Owens Drive, Pleasanton, CA 94588
+              <div class='contact-header'>Address</div>
+              6673 Owens Drive,<br>
+              Pleasanton, CA 94588
             </div>
             <div class='four columns'>
-              Phone<br />
+              <div class='contact-header'>Phone</div>
               925-556-0512
             </div>
             <div class='four columns'>
-              Fax<br />
+              <div class='contact-header'>Fax</div>
               925-224-8713
             </div>
             
@@ -204,9 +205,124 @@
         </div>
       </footer>
       <!-- End Footer -->
-      
+
       <!-- Scripts -->
       <script src="./scripts/menu.js"></script>
+      <script>
+      function initMap() {
+        var uluru = {lat: 37.6993395, lng: -121.9090654};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru,
+          // Google Maps Theme by Xavier @ http://www.xavierfoucrier.fr/
+          styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#444444"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#f2f2f2"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#46bcec"
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                }
+            ],
+            scrollwheel: false,
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h5 id="firstHeading" class="firstHeading">6673 Owens Drive, Pleasanton, CA 94588</h5>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'The Performance Group'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPkFAihWbHU7ekIgwYsULVeoPbawbf8Tk&callback=initMap">
+    </script>
 
   </body>
 </html>
