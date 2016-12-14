@@ -58,7 +58,8 @@ strong { font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(42, 43, 43);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 1.4;
@@ -135,8 +136,6 @@ ul, .ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-
 
 /* COLORS */
 /*
@@ -325,6 +324,7 @@ body {
     height: 90px;
     z-index: 9;
     .menu-icon {
+      transition: all 0.3s;
       margin: 25px 0 0 25px;
       width: 40px;
       height: 40px;
@@ -339,6 +339,7 @@ body {
       background-color: #f9f9f9;
     }
     .menu-icon-close {
+      transition: all 0.3s;
       -webkit-mask: url(../imgs/svg/android-close.svg) no-repeat 50% 50%;
       mask: url(../imgs/svg/android-close.svg) no-repeat 50% 50%;
       -webkit-mask-size: cover;
@@ -567,6 +568,51 @@ body {
   background-size: cover;
 }
 
+.logos {
+  /*height: 300px;*/
+  margin: auto 0;
+  display: inline-block;
+  text-align: center;
+  /*position: relative;*/
+  /*background-color: green;*/
+}
+
+.logo-img {
+  vertical-align: middle;
+  margin: 15px;
+  width: auto;
+  height: auto;
+  max-height: 70px;
+  max-width: 150px;
+}
+
+/*---- NEWS ---- */
+.news-banner {
+  width: 100%;
+  height: 200px;
+  background-image: url('../imgs/news.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-post {
+  padding: 20px 0;
+}
+.news-header {
+  letter-spacing: 2rem;
+}
+.news-title {
+  margin-bottom: 7px;
+  @include font-styles('Roboto', 700, 1.6rem, #353535, .75px, 2rem);
+}
+.news-date {
+  margin-bottom: 7px;
+  @include font-styles('Roboto', 400, .95rem, #353535, .75px, 1rem);
+}
+.news-content {
+  @include font-styles('Roboto', 300, 1rem, #353535, .75px, 1.5rem);
+}
+
 /* --- CONTACT US  --- */
 .contact-us {
   margin: 0;
@@ -593,6 +639,9 @@ body {
   padding: 0 7%;
   div {
     margin-bottom: 10px;
+  }
+  input, textarea {
+    color: #353535;
   }
 }
 .contact-options {
