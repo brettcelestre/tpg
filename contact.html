@@ -131,7 +131,7 @@
         <div class='contact-section'>
           <div class='container'>
             
-            <form class='contact-form'>
+            <div class='contact-form'>
               <h3>Contact us</h3>
               <div class="row">
                 <div class="six columns">
@@ -140,7 +140,8 @@
                 </div>
                 <div class="six columns">
                   <label>Who would you like to contact?</label>
-                  <select class="u-full-width contact-options" id="exampleRecipientInput">
+                  <select class="u-full-width contact-options" id="targetEmail">
+                    <!-- <option value="emericaos@yahoo.com">BRETT TEST</option> -->
                     <option value="pcostello@tpgsales.com">Phil Costello, Managing Partner</option>
                     <option value="smartinez@tpgsales.com">Steve Martinez, Managing Partner</option>
                     <option value="jjenson@tpgsales.com">Jerry Jenson, General Manager</option>
@@ -150,8 +151,8 @@
               </div>
               <label>Message</label>
               <textarea class="u-full-width email-content" placeholder="Drop us a line..." id="message"></textarea>
-              <input class="button-primary send-btn" type="submit" value="Send" />
-            </form>
+              <button class="button-primary send-btn" type="submit" id='contact-submit'>Send</button>
+            </div>
             
           </div>
         </div>
@@ -183,18 +184,27 @@
             </div>
             <div class='two columns footer-options'>
               <span class='footer-title'>SERVICES</span><br><br>
-              <a href='about.html' class='link footer-link'>
-                <span>FAKE LINK</span>
+              <a href='services.html' class='link footer-link'>
+                <span>Services</span>
               </a><br>
-              <a href='news.html' class='link footer-link'>
-                <span>FAKE LINK 2</span>
+              <a href='services.html' class='link footer-link'>
+                <span>Categories</span>
+              </a>
+              <a href='services.html' class='link footer-link'>
+                <span>Coverage</span>
               </a>
             </div>
             <div class='two columns footer-options'>
               <span class='footer-title'>MARKETPLACE</span><br><br>
-              Marketplace<br>
-              Clients<br>
-              Customers
+              <a href='marketplace.html' class='link footer-link'>
+                <span>Marketplace</span>
+              </a>
+              <a href='marketplace.html#client_anchor' class='link footer-link'>
+                <span>Clients</span>
+              </a>
+              <a href='marketplace.html#customers_anchor' class='link footer-link'>
+                <span>Customers</span>
+              </a>
             </div>
           </div>
         </div>
@@ -323,6 +333,6 @@
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPkFAihWbHU7ekIgwYsULVeoPbawbf8Tk&callback=initMap">
     </script>
-
+    <script src="./scripts/contact.js"></script>
   </body>
 </html>
