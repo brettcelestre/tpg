@@ -532,6 +532,9 @@ body {
   margin: 15px;
   @include font-styles('Roboto', 300, 1.2rem, #1a1a1a, 1px, 1.2rem);
   border-radius: 3px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .member:hover {
   /*cursor: pointer;*/
@@ -546,6 +549,67 @@ body {
   height: auto;
   max-height: 263px;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.bio-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  padding-top: 100px;
+  background-color: rgba(38, 38, 38, 0.5);
+}
+.bio-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 25px;
+  border-radius: 2px;
+  width: auto;
+  max-width: 700px;
+  min-width: 350px;
+    vertical-align: middle;
+}
+.bio-name {
+  @include font-styles('Roboto', 400, 1.3rem, #1a1a1a, 1px, 1.2rem);
+  padding-bottom: 8px;
+}
+.bio-copy {
+  margin-top: 15px;
+  padding-right: 20px;
+  @include font-styles('Roboto', 300, .95rem, #1a1a1a, 1px, 1.3rem);
+}
+.tab {
+  padding-left: 10px;
+}
+.exit-modal {
+  float: right;
+  top: -10px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  &:hover {
+   background-color: #f9f9f9; 
+  }
+}
+.exit-svg {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  -webkit-mask: url(../imgs/svg/android-close.svg) no-repeat 50% 50%;
+  mask: url(../imgs/svg/android-close.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #383838;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 /* --- SERVICES --- */
