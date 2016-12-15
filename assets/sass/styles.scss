@@ -454,6 +454,15 @@ body {
   /*transform: translateY(-50%);*/
   background-color: #27b8c5;
 }
+@media only screen and (device-width: 390px),
+        only screen and (max-width: 390px) {
+  .lets-talk {
+    padding: 25px 20px;
+  }
+  .footer-content {
+    padding:0 20px;
+  }
+}
 
 /* --- MISSION --- */
 .mission-photo {
@@ -770,6 +779,12 @@ footer {
 .copyright {
   padding: 15px 0;
   @include font-styles('Roboto', 100, .75rem, #cccccc, 1px, 1rem);
+}
+@media only screen and (device-width: 390px),
+        only screen and (max-width: 390px) {
+  .copyright {
+    padding:15px 20px;
+  }
 }
 
 /* Condense Menu */
