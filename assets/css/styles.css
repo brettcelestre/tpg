@@ -862,6 +862,8 @@ form {
   line-height: 1.9rem; }
   form input, form textarea {
     color: #353535; }
+  form .row .six {
+    padding-bottom: 15px; }
 
 #map {
   width: 100%;
