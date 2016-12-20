@@ -796,6 +796,12 @@ body {
 .send-btn {
   background-color: #27b8c5;
 }
+form {
+  @include font-styles('Roboto', 300, 1.15rem, white, .75px, 1.9rem);
+  input, textarea {
+    color: #353535;
+  }
+}
 
 #map {
   width: 100%;

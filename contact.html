@@ -130,18 +130,17 @@
 
         <div class='contact-section'>
           <div class='container'>
-            
-            <div class='contact-form'>
+          
+            <form action='https://formspree.io/bcelestre@gmail.com' method='post'>
               <h3>Contact us</h3>
               <div class="row">
                 <div class="six columns">
                   <label>Your email</label>
-                  <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="emailInput" />
+                  <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="emailInput" name='email' />
                 </div>
                 <div class="six columns">
                   <label>Who would you like to contact?</label>
-                  <select class="u-full-width contact-options" id="targetEmail">
-                    <!-- <option value="emericaos@yahoo.com">BRETT TEST</option> -->
+                  <select class="u-full-width contact-options" id="targetEmail" name='target'>
                     <option value="pcostello@tpgsales.com">Phil Costello, Managing Partner</option>
                     <option value="smartinez@tpgsales.com">Steve Martinez, Managing Partner</option>
                     <option value="jjenson@tpgsales.com">Jerry Jenson, General Manager</option>
@@ -150,9 +149,9 @@
                 </div>
               </div>
               <label>Message</label>
-              <textarea class="u-full-width email-content" placeholder="Drop us a line..." id="message"></textarea>
-              <button class="button-primary send-btn" type="submit" id='contact-submit'>Send</button>
-            </div>
+              <textarea class="u-full-width email-content" placeholder="Drop us a line..." id="message" name='message'></textarea>
+              <input type="submit" value="Send" class='button-primary send-btn'>
+            </form>
             
           </div>
         </div>
