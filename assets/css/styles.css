@@ -573,6 +573,8 @@ body {
   padding: 0; }
 
 @media only screen and (device-width: 414px), only screen and (max-width: 414px) {
+  .history-content .row {
+    padding: 0 15px; }
   .history-content div .two {
     text-align: left; } }
 
@@ -585,8 +587,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.4rem; }
 
-.team-members {
-  /*display: flex;*/
+.team-members, .partners {
   text-align: center; }
 
 .member {

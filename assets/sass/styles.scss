@@ -549,6 +549,9 @@ body {
 @media only screen and (device-width: 414px),
         only screen and (max-width: 414px) {
   .history-content {
+    .row {
+      padding: 0 15px;
+    }
     div .two {
       text-align: left;
     }
@@ -559,8 +562,7 @@ body {
 .team-header {
   @include font-styles('Roboto', 500, 1.4rem, #1a1a1a, 1px, 1.4rem);
 }
-.team-members {
-  /*display: flex;*/
+.team-members, .partners {
   text-align: center;
 }
 .member {
@@ -591,8 +593,6 @@ body {
   margin-bottom: 10px;
   text-align: center;
 }
-
-
 .bio-modal {
   display: none;
   position: fixed;
