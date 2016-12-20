@@ -710,7 +710,10 @@ body {
       width: 100%;
       min-width: 130px; }
   .bio-modal {
-    padding-top: 0; } }
+    padding-top: 0; }
+    .bio-modal .bio-content {
+      height: auto;
+      min-height: 100%; } }
 
 /* --- SERVICES --- */
 .services-banner {

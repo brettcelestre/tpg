@@ -675,6 +675,10 @@ body {
   }
   .bio-modal {
     padding-top: 0;
+    .bio-content {
+      height: auto;
+      min-height: 100%;
+    }
   }
 }
 
