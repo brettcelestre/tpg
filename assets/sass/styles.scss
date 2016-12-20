@@ -747,6 +747,13 @@ body {
   @include font-styles('Roboto', 300, 1rem, #353535, .75px, 1.5rem);
 }
 
+@media only screen and (device-width: 414px),
+        only screen and (max-width: 414px) {
+  .news-post {
+    padding: 20px;
+  }
+}
+
 /* --- CONTACT US  --- */
 .contact-us {
   margin: 0;
