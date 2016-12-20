@@ -654,6 +654,25 @@ body {
 
 @media only screen and (device-width: 414px),
         only screen and (max-width: 414px) {
+  .team {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .team-members {
+    padding-left: 0;
+    padding-right: 0;
+    .member {
+      display: inline-block;
+      width: 48%;
+      margin: 0;
+      padding: 20px 5px;
+    }
+    .bio-img {
+      width: 100%;
+      min-width: 130px;
+    }
+  }
   .bio-modal {
     padding-top: 0;
   }
