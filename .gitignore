@@ -2,6 +2,8 @@ assets/imgs/
 
 node_modules/
 
+scripts/contact.js
+
 .DS_Store
 
 notes.txt
