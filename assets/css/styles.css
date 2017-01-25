@@ -724,6 +724,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+@media only screen and (device-width: 414px), only screen and (max-width: 414px) {
+  .services-banner {
+    height: 200px; } }
+
 /* --- MARKETPLACE --- */
 .marketplace-banner {
   width: 100%;
@@ -748,6 +752,10 @@ body {
   height: auto;
   max-height: 70px;
   max-width: 150px; }
+
+@media only screen and (device-width: 414px), only screen and (max-width: 414px) {
+  .marketplace-banner {
+    height: 200px; } }
 
 /*---- NEWS ---- */
 .news-banner {
@@ -791,6 +799,8 @@ body {
   line-height: 1.5rem; }
 
 @media only screen and (device-width: 414px), only screen and (max-width: 414px) {
+  .news-banner {
+    height: 200px; }
   .news-post {
     padding: 20px; } }
 
@@ -870,6 +880,8 @@ form {
   height: 400px; }
 
 @media only screen and (device-width: 414px), only screen and (max-width: 414px) {
+  #map {
+    width: 200px; }
   .contact-section {
     padding-left: 20px;
     padding-right: 20px; }
