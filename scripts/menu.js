@@ -24,7 +24,9 @@ var mobileMenu = function(){
     $('.menu-fade').css('display', 'block');
   }
 }
-  
+
+var newDate = new Date();
+    year = newDate.getFullYear();
   
 $(document).ready(function(){
   
@@ -35,5 +37,7 @@ $(document).ready(function(){
   $('.menu-fade').click(function(){
     mobileMenu();
   });
+  
+  $('#year').text(year);
 
 });
