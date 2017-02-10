@@ -151,7 +151,20 @@ $(document).ready(function(){
   
   var $exit = $('.exit-svg'),
       $modal = $('.bio-modal'),
-      name;
+      name,
+      $readBio = $('.read-bio');
+  
+  $readBio.text('Read Full Biography');
+  
+  // Shows / Hides 'Read Full Biography' text
+  $('.member').hover(function(e){
+    var classes = e.currentTarget.children[5].classList;
+    if ( classes.value.includes('read-bio-show') ) {
+      e.currentTarget.children[5].classList.value = 'read-bio';
+    } else {
+      e.currentTarget.children[5].classList.value = 'read-bio read-bio-show';
+    }
+  });
   
   // Opens modal
   $('.member').click(function(e){

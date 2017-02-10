@@ -593,11 +593,17 @@ body {
   }
 }
 .member:hover {
-  /*cursor: pointer;*/
   background-color: #f6f6f6;
 }
 .job-title {
   @include font-styles('Roboto', 300, .85rem, #1a1a1a, 1px, .9rem);
+}
+.read-bio {
+  visibility: hidden;
+  @include font-styles('Roboto', 300, .85rem, blue, 1px, .9rem);
+}
+.read-bio-show {
+  visibility: visible;
 }
 .bio-img {
   width: auto;

@@ -621,7 +621,6 @@ body {
     cursor: pointer; }
 
 .member:hover {
-  /*cursor: pointer;*/
   background-color: #f6f6f6; }
 
 .job-title {
@@ -631,6 +630,18 @@ body {
   color: #1a1a1a;
   letter-spacing: 1px;
   line-height: 0.9rem; }
+
+.read-bio {
+  visibility: hidden;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 0.85rem;
+  color: blue;
+  letter-spacing: 1px;
+  line-height: 0.9rem; }
+
+.read-bio-show {
+  visibility: visible; }
 
 .bio-img {
   width: auto;
