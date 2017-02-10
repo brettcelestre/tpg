@@ -559,6 +559,19 @@ body {
 .history-content .row {
   margin: 15px 0; }
 
+.history-content .full-history {
+  display: none; }
+
+.history-content .view-full-history {
+  display: inline-block;
+  margin: auto 0;
+  margin-top: 30px;
+  padding: 12px;
+  width: 200px; }
+  .history-content .view-full-history:hover {
+    background-color: white;
+    cursor: pointer; }
+
 .history-content div .two {
   font-family: "Roboto";
   font-weight: 700;

@@ -537,6 +537,20 @@ body {
   .row {
     margin: 15px 0;
   }
+  .full-history {
+    display: none;
+  }
+  .view-full-history {
+    display: inline-block;
+    margin: auto 0;
+    margin-top: 30px;
+    padding: 12px;
+    width: 200px;
+    &:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+  }
   div .two {
     @include font-styles('Roboto', 700, 1rem, #1a1a1a, 1px, 1.9rem);
     text-align: right;
