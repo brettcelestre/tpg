@@ -937,6 +937,9 @@ body {
   letter-spacing: 1px;
   line-height: 1.9rem; }
 
+.directions {
+  text-decoration: none; }
+
 .contact-form {
   font-family: "Roboto";
   font-weight: 300;

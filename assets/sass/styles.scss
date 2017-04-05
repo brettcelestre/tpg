@@ -875,6 +875,9 @@ body {
 .contact-section h3 {
   @include font-styles('Roboto', 300, 2rem, #27b8c5, 1px, 1.9rem);
 }
+.directions {
+  text-decoration: none;
+}
 .contact-form {
   @include font-styles('Roboto', 300, 1.15rem, white, .75px, 1.9rem);
   padding: 0 7%;
