@@ -145,6 +145,10 @@ var bios = {
     'bio': 'Sara began her career in 1983 working for JJ Morris.  Throughout the 15 years of working in the food industry, she also worked for Kelley-Clarke and Marketing Specialists (formerly Bromar).  Her responsibilities included administrative assistant to several business managers, retail sales assistant, supervisor of the mailroom, and supervisor of the “Vista” (promotions) department.<br><br>' +
     'Sara “took a break” from the food industry and worked as an executive assistant at ADP for 10 years.  She also learned how to hand craft a “mean cup of coffee” as a part-time barista / shift supervisor at Starbucks for 4 years.<br><br>' +
     'In 2012 she made the decision to return to the food industry and came to work for TPG as Administrative / Customer Service Assistant.'
+  },
+  'Terri Perry': {
+    'title': 'Administrative Assistant',
+    'bio': 'Terri began in customer service 33 years ago for various companies, such as US Windpower, Dayton Hudson, and the automotive industry.  She began assisting a large customer base as Service Advisor, then moved up to Sales Specialist, and later became Master Certified as the Customer Relations Manager for Lincoln and Ford, which included marketing and promotions.  Terri joined the Performance Group in 2017 and with her extensive customer service background has made a great addition to our team.'
   }
 }
 
