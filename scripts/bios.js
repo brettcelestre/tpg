@@ -76,8 +76,8 @@ var bios = {
     'bio': 'Not available.'
   },
   'Dave Anderson': {
-    'title': 'Business Manager',
-    'bio': 'Starting in 1986 as Territory manager at Kelley Clarke. Held various positions during 7 years at Hershey Chocolate. Perrier Group of America, Western Regional Sales Manager. Back to Brokerage companies in 2001 working for Alcosta. Dave took the opportunity to join SummitHill Sales and Marketing as Vice President Northern California in 2005. When SummitHill pulled out of Northern California Dave joined Ther Performance Group in 2011. Responsibilties include Business Manager, Retail Sales Supervisor and Crystal Geyser Merchandising team supervisor.'
+    'title': 'Retail Sales Manager',
+    'bio': 'Starting in 1986 as Territory manager at Kelley Clarke.  Held various positions during 7 years at Hershey Chocolate. Perrier Group of America, Western Regional Sales Manager.  Back to Brokerage companies in 2001 working for Acosta.  Dave took the opportunity to join SummitHill Sales and Marketing as Vice President Northern California in 2005. When Summit Hill pulled out of Northern California Dave joined The Performance group in 2011.  Responsibilities include Business Manager, Retail Sales Supervisor and Crystal Geyser Merchandising team supervisor. '
   },
   'Dawn Struer': {
     'title': 'Customer Sales Manager',
