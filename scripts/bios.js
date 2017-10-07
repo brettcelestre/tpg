@@ -77,7 +77,7 @@ var bios = {
   },
   'Dave Anderson': {
     'title': 'Business Manager',
-    'bio': 'Before joining TPG in July 2009, Thad started his career with Safeway, Inc in 2002 in the Supply Chain department as a Procurement Specialist purchasing Non-Perishable products.  To continue to grow his career, he moved over to Category Management Department.  He started as a Category Analyst supporting the Laundry category and then the Paper Category.  He was promoted to Category Manager while working on the Paper team.  Thad was then promoted to Category Director on the Seasonal Desk, which included Charcoal/Logs, Apparel, Housewares, Home Decor, Automotive and Hardware.'
+    'bio': 'Starting in 1986 as Territory manager at Kelley Clarke. Held various positions during 7 years at Hershey Chocolate. Perrier Group of America, Western Regional Sales Manager. Back to Brokerage companies in 2001 working for Alcosta. Dave took the opportunity to join SummitHill Sales and Marketing as Vice President Northern California in 2005. When SummitHill pulled out of Northern California Dave joined Ther Performance Group in 2011. Responsibilties include Business Manager, Retail Sales Supervisor and Crystal Geyser Merchandising team supervisor.'
   },
   'Dawn Struer': {
     'title': 'Customer Sales Manager',
@@ -102,7 +102,13 @@ var bios = {
   },
   'Adam Martinez': {
     'title': 'Customer Sales Manager',
-    'bio': 'Not available.'
+    'bio': 'I started my career in the food industry in Los Angeles working for Unified Grocers on their Accounts Receivable team. After moving back to Northern California in 2015, I started work at the Jelly Belly corporate offices in Fairfield as part of the Accounts Payable/Deductions branch. I was there for about a year until March 2016 when I joined The Performance Group as a Customer Sales Manager for the Walnut Creek to Vacaville area.'
+  },
+  'Philip Costello': {
+    'title': 'Customer Sales Manager',
+    'bio': 'Upon graduation at UC Davis (May 2017), Philip\'s start date with the Performance Group was June 5th, 2017.<br><br>' +
+      'Philip majored in Economics. During school, Philip worked for a period of time at Raley\'s (Tracy, CA) as a courtesy clerk. Philip was also an independent contractor on the Crystal Geyser Water weekend warrior retail team.<br><br>' +
+      'Philip\'s retail territory is the greater Sacramento area.'
   },
   'Charmaine Murphy': {
     'title': 'Customer Sales Manager',
