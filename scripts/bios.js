@@ -90,11 +90,6 @@ var bios = {
       'Jeff was offered a position of Business Manager for Performance Group in Northern California. His responsibilities include calling on Food 4 less & Food Maxx and major independents.<br><br>' +
       'Jeff lives in Fresno California, with his wife Debbie.'
   },
-  'Katie Day': {
-    'title': 'Business Manager',
-    'bio': "I started my sales career 1987 with Ernest & Julio Gallo as a Sales Rep. After three years I joined Bradshaw Inc (which became CROSSMARK) in 1990 where I worked in various sales & management positions over the next 10 years. Since 2004 I've been a full-time Realtor selling residential Real Estate for Coldwell Banker & Intero RE Services.<br><br>" + 
-      "I'm grateful to be back in the Food Brokerage business and look forward to the many challenges it brings."
-  },
   'Rich Amorosa': {
     'title': 'Customer Sales Manager',
     'bio': "Rich has over 30 years experience in the northern California food industry.  Rich moved to Northern California in 1976, coming from the Big Apple.  He started his career with Johnston's Yogurt Co. in sales and delivery.  In 1977, he was promoted to the position of area manager.  In 1979, Johnston's decided to go broker and joined the Bradshaw North team, and so did Rich, as a territory manager.  In 1980, Rich was promoted to Key Account Manager.  Over the next several years his headquarter responsibilities included Fry's Food Stores, Nob Hill Foods Stores, Savemart HQ, Certified Grocers (Unified Grocers), SSI and numerous smaller HQ groups.  Rich was then promoted to Business Manager in 1997, and was responsible for lines, such as, Lea&Perrins, Sue Bee Honey, Eagle Brand Milk, just to name a few.  In 2001, Rich left Bradshaw, which had then become CROSSMARK, and went to work for Boyd’s Coffee Co. in Northern California, which eventually led to his move to the Reno/Sparks with Boyd’s.<br><br>" +
@@ -146,6 +141,14 @@ var bios = {
     'In 2012 she made the decision to return to the food industry and came to work for TPG as Administrative / Customer Service Assistant.'
   }
 }
+
+/*
+'Katie Day': {
+  'title': 'Business Manager',
+  'bio': "I started my sales career 1987 with Ernest & Julio Gallo as a Sales Rep. After three years I joined Bradshaw Inc (which became CROSSMARK) in 1990 where I worked in various sales & management positions over the next 10 years. Since 2004 I've been a full-time Realtor selling residential Real Estate for Coldwell Banker & Intero RE Services.<br><br>" + 
+    "I'm grateful to be back in the Food Brokerage business and look forward to the many challenges it brings."
+}
+*/
 
 $(document).ready(function(){
   

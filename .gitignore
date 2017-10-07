@@ -4,6 +4,10 @@ node_modules/
 
 scripts/contact.js
 
+assets/stocks
+
+*.swp
+
 .DS_Store
 
 notes.txt
