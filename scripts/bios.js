@@ -73,7 +73,9 @@ var bios = {
   },
   'Rich Mott': {
     'title': 'Business Manager',
-    'bio': 'Not available.'
+    'bio': 'Rich Mott joined the TPG team in August 2015 taking over the responsibilities as Business Manager calling on C&S, Food 4 Less PAQ, Nugget/Food 4 Less, Tony’s, and Holiday Markets.<br><br>' +
+    'Rich earned his BA Degree in Organizational Communications from Sacramento State University.  He has a strong pedigree in the Nor Cal Food Industry with over 22 years’ experience. He began his career with Raley’s Family of Fine Stores in 1993. While with Raley’s Rich held a variety of positions to include Produce Manager, Operations Supervisor in both Produce and Floral & Center Store, Visual Merchandising Manager and spent several years as a Category Analyst in the Sales and Merchandising Department. In 2006 Rich was honored to be awarded and named one of the top 20 Produce Managers from across the Nation by United Fresh Produce Association. <br><br>' +
+    'In 2013 Rich joined Kraft Foods Group and held the position of Retail Category Sales Manager - West Region where he managed 5 business units with 21 sub categories. Most recently Rich worked for Grocery Outlet where he oversaw Produce and Floral Merchandising for 110 stores in California and Nevada.'
   },
   'Dave Anderson': {
     'title': 'Retail Sales Manager',
